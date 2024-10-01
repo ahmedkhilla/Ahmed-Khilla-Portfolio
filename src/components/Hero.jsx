@@ -1,3 +1,4 @@
+import { CV } from "../constants/cons";
 import Button from "./Button";
 
 function Hero() {
@@ -17,10 +18,7 @@ function Hero() {
             innovation, and passion for coding
           </p>
           <div>
-            <Button
-              className="hidden md:block"
-              href="https://drive.google.com/file/d/123jZHkWobV6QdY77JP2if2odU8nv6AuH/view?usp=drive_link"
-            >
+            <Button className="hidden md:block" href={CV}>
               Download CV
             </Button>
           </div>
@@ -30,7 +28,7 @@ function Hero() {
           <div className="h-full w-full rounded-full bg-primary-bcg">
             <div className="absolute right-0 top-0 z-10 rounded-full bg-border-gradient px-[2px] shadow-custom-profile">
               <img
-                src="/public/assests/profile.jpg"
+                src="/assests/profile.jpg"
                 width={120}
                 height={120}
                 className="rounded-full xs:h-[160px] xs:w-[160px] sm:h-[160px] sm:w-[160px]"

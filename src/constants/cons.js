@@ -44,15 +44,15 @@ export const projects = [
   },
   {
     id: 3,
-    imageUrl: "/public/assests/projects/classy weather.png",
+    imageUrl: "/assests/projects/classy weather.png",
     projectName: "Classy Weather App",
     text: "Classy Weather App built using React class components with real-time weather data. React.js, CSS3",
-    hrefLive: "https://github.com/ahmedkhilla/Classy-Weather-App",
-    hrefGit: "https://classy-weather-app-black.vercel.app/",
+    hrefLive: "https://classy-weather-app-black.vercel.app/",
+    hrefGit: "https://github.com/ahmedkhilla/Classy-Weather-App",
   },
   {
     id: 4,
-    imageUrl: "/public/assests/projects/travel list app.png",
+    imageUrl: "/assests/projects/travel list app.png",
     projectName: "Travel List App",
     text: "Simple Travel App for managing trips and destinations. Built with React.js, CSS3",
     hrefLive: "https://todo-react-app-taupe.vercel.app",
@@ -60,7 +60,7 @@ export const projects = [
   },
   {
     id: 5,
-    imageUrl: "/public/assests/projects/shopFavorite.png",
+    imageUrl: "/assests/projects/shopFavorite.png",
     projectName: "ShopFavorite Ecommerce App",
     text: "A dynamic React eCommerce app with product browsing, search, sorting, shopping cart, and favorites, powered by the DummyJson API.",
     hrefLive: "https://shop-favorite-ecommerce-app.vercel.app/",
@@ -68,7 +68,7 @@ export const projects = [
   },
   {
     id: 6,
-    imageUrl: "/public/assests/projects/Bankist.png",
+    imageUrl: "/assests/projects/Bankist.png",
     projectName: "JavasCrpit Bankist App",
     text: "Bankist: A simple banking app built with vanilla JavaScript, featuring basic account transactions and balance tracking.",
     hrefLive: "https://ahmedkhilla.github.io/Bankist-Project/",
@@ -76,7 +76,7 @@ export const projects = [
   },
   {
     id: 7,
-    imageUrl: "/public/assests/projects/Mapty.png",
+    imageUrl: "/assests/projects/Mapty.png",
     projectName: "JavasCrpit Mapty App",
     text: "Mapty: A JavaScript application for tracking workouts with interactive map features and data visualization.",
     hrefLive: "https://ahmedkhilla.github.io/Mapty-app/",
@@ -117,3 +117,5 @@ export const skills = [
 ];
 
 export const email = "ah.khilla97@gmail.com";
+export const CV =
+  "https://drive.google.com/file/d/1uMtkvyDaw42cbWRISLwOMG8CthO8Jvgj/view?usp=sharing";
