@@ -2,6 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { HashLink as Link } from "react-router-hash-link";
+import SocialMedia from "./SocialMedia";
 
 function Header() {
   return (
@@ -30,23 +31,7 @@ function Header() {
         </nav>
 
         <div className="sm:block">
-          <ul className="flex items-center gap-4 md:gap-2">
-            <li className="text-xl lg:text-3xl">
-              <Link href="#">
-                <FaLinkedin />
-              </Link>
-            </li>
-            <li className="text-xl lg:text-3xl">
-              <Link href="#">
-                <FaGithub />
-              </Link>
-            </li>
-            <li className="text-lg lg:text-3xl">
-              <Link href="#">
-                <FaFacebookSquare />
-              </Link>
-            </li>
-          </ul>
+          <SocialMedia />
         </div>
       </div>
 

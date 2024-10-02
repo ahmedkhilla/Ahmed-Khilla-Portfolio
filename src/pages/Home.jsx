@@ -11,10 +11,10 @@ function Home() {
     <div>
       <Header />
       <Hero />
+      <Aboutme />
       <Projects />
       <Technologies />
       <Skills />
-      <Aboutme />
       <Footer />
     </div>
   );
