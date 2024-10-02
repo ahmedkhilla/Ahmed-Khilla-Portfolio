@@ -2,7 +2,7 @@ function Aboutme() {
   return (
     <section
       id="aboutme"
-      className="px-6 pb-16 xs:px-8 sm:px-16 md:px-6 lg:px-20 xl:px-40"
+      className="px-6 pt-16 xs:px-8 sm:px-16 md:px-6 lg:px-20 xl:px-40"
     >
       <div className="container mx-auto">
         <h2 className="mb-8 text-xl font-semibold tracking-wide xl:text-2xl">

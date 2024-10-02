@@ -19,7 +19,7 @@ function Projects() {
             >
               <div className="rounded-2xl bg-primary-bcg p-8 md:p-6">
                 <div className="image-container mb-6 sm:h-[270px]">
-                  <img src={project.imageUrl} alt="Comfy House App" />
+                  <img src={project.imageUrl} alt={project.projectName} />
                 </div>
 
                 <div className="mb-6">

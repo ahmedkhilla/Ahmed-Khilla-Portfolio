@@ -1,7 +1,14 @@
+export const email = "ah.khilla97@gmail.com";
+export const CV =
+  "https://drive.google.com/file/d/1uMtkvyDaw42cbWRISLwOMG8CthO8Jvgj/view?usp=sharing";
+export const FACEBOOK = "https://www.facebook.com/ahmed.khelah/";
+export const GITHUB = "https://github.com/ahmedkhilla";
+export const LINKEDIN = "https://www.linkedin.com/in/ahmed-khilla-208034286";
+
 export const technologies = [
   {
     id: 1,
-    techno: "html",
+    techno: "HTML",
     value: 85,
     progress: "Advanced",
   },
@@ -13,12 +20,18 @@ export const technologies = [
   },
   {
     id: 3,
-    techno: "Javacript",
+    techno: "Resposnive Design",
     value: 85,
     progress: "Advanced",
   },
   {
     id: 4,
+    techno: "Javacript",
+    value: 85,
+    progress: "Advanced",
+  },
+  {
+    id: 5,
     techno: "React",
     value: 75,
     progress: "Regular",
@@ -31,11 +44,27 @@ export const projects = [
     imageUrl: "/assests/projects/Comfy House.png",
     projectName: "E-Commerce JavaScript Project",
     text: "Simple E-Commerce project with dynamic product listing and cart functionality. JavaScript, HTML5, CSS3",
-    hrefLive: "https://github.com/ahmedkhilla/Comfy-House",
-    hrefGit: "https://ahmedkhilla.github.io/Comfy-House/",
+    hrefLive: "https://ahmedkhilla.github.io/Comfy-House/",
+    hrefGit: "https://github.com/ahmedkhilla/Comfy-House",
   },
   {
     id: 2,
+    imageUrl: "/assests/projects/wild-oasis.png",
+    projectName: "The Wild Oasis Hotel App",
+    text: "a comprehensive hotel management system built with React, Styled Components and React Query.",
+    hrefLive: "https://the-wild-oasis-eight-theta.vercel.app/dashboard",
+    hrefGit: "https://github.com/ahmedkhilla/the-wild-oasis",
+  },
+  {
+    id: 3,
+    imageUrl: "/assests/projects/brainwave.png",
+    projectName: "Brainwave React App",
+    text: "Brainwaves is a modern, responsive web application built using React and Tailwind CSS",
+    hrefLive: "https://brainwave-react-app-dun.vercel.app/",
+    hrefGit: "https://github.com/ahmedkhilla/brainwave-react-app",
+  },
+  {
+    id: 4,
     imageUrl: "/assests/projects/fast react pizza.png",
     projectName: "Fast React Pizza App",
     text: "Fast React pizza app with state management using Redux. React.js, Redux, Tailwind CSS",
@@ -43,7 +72,7 @@ export const projects = [
     hrefGit: "https://github.com/ahmedkhilla/fast-react-pizza",
   },
   {
-    id: 3,
+    id: 5,
     imageUrl: "/assests/projects/classy weather.png",
     projectName: "Classy Weather App",
     text: "Classy Weather App built using React class components with real-time weather data. React.js, CSS3",
@@ -51,7 +80,7 @@ export const projects = [
     hrefGit: "https://github.com/ahmedkhilla/Classy-Weather-App",
   },
   {
-    id: 4,
+    id: 6,
     imageUrl: "/assests/projects/travel list app.png",
     projectName: "Travel List App",
     text: "Simple Travel App for managing trips and destinations. Built with React.js, CSS3",
@@ -59,23 +88,23 @@ export const projects = [
     hrefGit: "https://github.com/ahmedkhilla/travel-list-app",
   },
   {
-    id: 5,
+    id: 7,
     imageUrl: "/assests/projects/shopFavorite.png",
     projectName: "ShopFavorite Ecommerce App",
-    text: "A dynamic React eCommerce app with product browsing, search, sorting, shopping cart, and favorites, powered by the DummyJson API.",
+    text: "A dynamic React app with product browsing, search, sorting and others",
     hrefLive: "https://shop-favorite-ecommerce-app.vercel.app/",
     hrefGit: "https://github.com/ahmedkhilla/ShopFavorite-Ecommerce-App",
   },
   {
-    id: 6,
+    id: 8,
     imageUrl: "/assests/projects/Bankist.png",
     projectName: "JavasCrpit Bankist App",
-    text: "Bankist: A simple banking app built with vanilla JavaScript, featuring basic account transactions and balance tracking.",
+    text: "A simple banking app built with vanilla JavaScript, featuring basic account transactions and balance tracking.",
     hrefLive: "https://ahmedkhilla.github.io/Bankist-Project/",
     hrefGit: "https://github.com/ahmedkhilla/Bankist-Project",
   },
   {
-    id: 7,
+    id: 9,
     imageUrl: "/assests/projects/Mapty.png",
     projectName: "JavasCrpit Mapty App",
     text: "Mapty: A JavaScript application for tracking workouts with interactive map features and data visualization.",
@@ -115,7 +144,3 @@ export const skills = [
     skill: "Problem solver",
   },
 ];
-
-export const email = "ah.khilla97@gmail.com";
-export const CV =
-  "https://drive.google.com/file/d/1uMtkvyDaw42cbWRISLwOMG8CthO8Jvgj/view?usp=sharing";

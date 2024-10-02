@@ -1,11 +1,6 @@
-import {
-  FaFacebookSquare,
-  FaGithub,
-  FaLinkedin,
-  FaTelegramPlane,
-} from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 import { email } from "../constants/cons";
-import { Link } from "react-router-dom";
+import SocialMedia from "./SocialMedia";
 
 function Footer() {
   return (
@@ -16,23 +11,7 @@ function Footer() {
             <p className="bg-border-gradient bg-clip-text text-sm font-medium text-transparent">
               Feel free to contact me
             </p>
-            <ul className="flex items-center gap-4 md:gap-2">
-              <li className="text-xl">
-                <Link href="#">
-                  <FaLinkedin />
-                </Link>
-              </li>
-              <li className="text-xl">
-                <Link href="#">
-                  <FaGithub />
-                </Link>
-              </li>
-              <li className="text-lg">
-                <Link href="#">
-                  <FaFacebookSquare />
-                </Link>
-              </li>
-            </ul>
+            <SocialMedia />
           </div>
           <div className="flex items-center justify-between">
             <p className="text-sm font-medium tracking-tight">
@@ -71,23 +50,7 @@ function Footer() {
               <span> @ahmedkhilla</span>
             </a>
           </p>
-          <ul className="flex items-center gap-4 md:gap-2">
-            <li className="text-xl">
-              <Link href="#">
-                <FaLinkedin />
-              </Link>
-            </li>
-            <li className="text-xl">
-              <Link href="#">
-                <FaGithub />
-              </Link>
-            </li>
-            <li className="text-lg">
-              <Link href="#">
-                <FaFacebookSquare />
-              </Link>
-            </li>
-          </ul>
+          <SocialMedia />
         </div>
       </div>
     </section>
