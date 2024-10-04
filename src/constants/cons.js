@@ -41,7 +41,7 @@ export const technologies = [
 export const projects = [
   {
     id: 1,
-    imageUrl: "/assests/projects/Comfy House.png",
+    imageUrl: "/assests/projects/comfy-house.jpeg",
     projectName: "E-Commerce JavaScript Project",
     text: "Simple E-Commerce project with dynamic product listing and cart functionality. JavaScript, HTML5, CSS3",
     hrefLive: "https://ahmedkhilla.github.io/Comfy-House/",
@@ -49,7 +49,7 @@ export const projects = [
   },
   {
     id: 2,
-    imageUrl: "/assests/projects/wild-oasis.png",
+    imageUrl: "/assests/projects/wild-oasis.jpeg",
     projectName: "The Wild Oasis Hotel App",
     text: "a comprehensive hotel management system built with React, Styled Components and React Query.",
     hrefLive: "https://the-wild-oasis-eight-theta.vercel.app/dashboard",
@@ -57,7 +57,7 @@ export const projects = [
   },
   {
     id: 3,
-    imageUrl: "/assests/projects/brainwave.png",
+    imageUrl: "/assests/projects/brainwave.jpeg",
     projectName: "Brainwave React App",
     text: "Brainwaves is a modern, responsive web application built using React and Tailwind CSS",
     hrefLive: "https://brainwave-react-app-dun.vercel.app/",
@@ -65,7 +65,7 @@ export const projects = [
   },
   {
     id: 4,
-    imageUrl: "/assests/projects/fast react pizza.png",
+    imageUrl: "/assests/projects/fast-react-pizza.jpeg",
     projectName: "Fast React Pizza App",
     text: "Fast React pizza app with state management using Redux. React.js, Redux, Tailwind CSS",
     hrefLive: "https://fast-react-pizza-blond-seven.vercel.app/",
@@ -73,7 +73,7 @@ export const projects = [
   },
   {
     id: 5,
-    imageUrl: "/assests/projects/classy weather.png",
+    imageUrl: "/assests/projects/classy-weather.jpeg",
     projectName: "Classy Weather App",
     text: "Classy Weather App built using React class components with real-time weather data. React.js, CSS3",
     hrefLive: "https://classy-weather-app-black.vercel.app/",
@@ -81,7 +81,7 @@ export const projects = [
   },
   {
     id: 6,
-    imageUrl: "/assests/projects/travel list app.png",
+    imageUrl: "/assests/projects/travel-list.jpeg",
     projectName: "Travel List App",
     text: "Simple Travel App for managing trips and destinations. Built with React.js, CSS3",
     hrefLive: "https://todo-react-app-taupe.vercel.app",
@@ -89,7 +89,7 @@ export const projects = [
   },
   {
     id: 7,
-    imageUrl: "/assests/projects/shopFavorite.png",
+    imageUrl: "/assests/projects/shopFavorite.jpeg",
     projectName: "ShopFavorite Ecommerce App",
     text: "A dynamic React app with product browsing, search, sorting and others",
     hrefLive: "https://shop-favorite-ecommerce-app.vercel.app/",
@@ -105,7 +105,7 @@ export const projects = [
   },
   {
     id: 9,
-    imageUrl: "/assests/projects/Mapty.png",
+    imageUrl: "/assests/projects/mapty.jpeg",
     projectName: "JavasCrpit Mapty App",
     text: "Mapty: A JavaScript application for tracking workouts with interactive map features and data visualization.",
     hrefLive: "https://ahmedkhilla.github.io/Mapty-app/",
